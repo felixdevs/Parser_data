@@ -4,8 +4,6 @@ import csv  # coma separated value (данные разделенные запя
 import datetime
 
 
-x = 10
-
 def get_html(url):
     r = requests.get(url)
     return r.text
